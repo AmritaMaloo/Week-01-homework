@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <title> Week-02-homework </title>
+        <meta name="description" content="Week-02-homework">
+        <meta name="author" content="SitePoint">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head> 
+    <body>
+        <article>
+            <header>
+                <h1>WEB DEVELOPMENT AS AN INDUSTRY</h1>
+                <p>An Article about web development</p>
+            </header>
+            
+            <div class="tab">
+                <button>home</button>
+                <button>about</button>
+                <button>our services</button>
+                <button>our office</button>
+            </div>
+
+            <div class="bkgrndimg">
+                <figure>
+                    <img src="https://www.trilux.com/fileadmin/Content/DE/Images/Anwendungen/Office/ATHENIK_Office_Slider.jpg" alt="imagepic">
+                </figure>
+            </div>
+            
+            <section class="webdev">                        
+                <div class="mainpara">
+                    <h2>PRACTICAL WEB DEVELOPMENT</h2>
+
+                    <p class="mainp">Since the commercialization of the web, web development has been a growing industry. The growth of this industry is being driven by businesses wishing to use their website to sell products and services to customers.[1]</p>
+
+                    <p class="mainp">There is open source software for web development like BerkeleyDB, GlassFish, LAMP (Linux, Apache, MySQL, PHP) stack and Perl/Plack. This has kept the cost of learning web development to a minimum. Another contributing factor to the growth of the industry has been the rise of easy-to-use WYSIWYG web-development software, such as Adobe Dreamweaver, BlueGriffon and Microsoft Visual Studio. Knowledge of HyperText Markup Language (HTML) or of programming languages is still required to use such software, but the basics can be learned and implemented quickly with the help of help files, technical books, internet tutorials, or face-to-face training.
+                    </p>
+                    <p class="mainp">An ever-growing set of tools and technologies have helped developers build more dynamic and interactive websites. Further, web developers now help to deliver applications as web services which were traditionally only available as applications on a desk-based computer. This has allowed for many opportunities to decentralize information and media distribution. Examples can be seen with the rise of cloud services such as Adobe Creative Cloud, Dropbox and Google Docs. These web services allow users to interact with applications from many locations, instead of being tied to a specific workstation for their application environment.</p>
+                </div>
+
+                <aside>
+                    <h2>WEB DEVELOPMENT AS AN INDUSTRY</h2>
+                    <p class="asidep">Examples of dramatic transformation in communication and commerce led by web development include e-commerce. Online auction sites such as eBay have changed the way consumers find and purchase goods and services. Online retailers such as Amazon.com and Buy.com (among many others) have transformed the shopping and bargain-hunting experience for many consumers.</p>
+                </aside>
+            </section>
+
+            <section class="logot">
+                <div class="logoonly">
+                    <h2>LOGOTYPES ON THE WEB</h2>
+                    <div class="grid-container">
+                        <div class="grid-item"><img src ="images_folder/if_twitter_317720.svg" alt="twitter-logo" width="100" height="100"></div>
+
+                        <div class="grid-item"><a href="#"><svg width="100" height="100">
+                            <circle cx="50" cy="50" r="40" stroke="orange" stroke-width="4" fill="yellow" />
+                            </svg></a></div>
+
+                        <div class="grid-item"><a href="#"><img src="images_folder/if_firefox_317745.svg" alt ="firefox-logo" width="100" height="100"></a></div>  
+
+                        <div class="grid-item"><a href="#"><img src="images_folder/if_social_media_social_media_logo_slack_2993744.svg" alt ="logo" width="100" height="100"></a></div>
+
+                        <div class="grid-item"><a href="#"><img src ="images_folder/if_twitter_317720.svg" alt="twitter-logo" width="100" height="100"></a></div>
+
+                        <div class="grid-item"><a href="#"><svg width="100" height="100">
+                        <circle cx="50" cy="50" r="40" stroke="orange" stroke-width="4" fill="yellow" />
+                        </svg></a></div>
+
+                        <div class="grid-item"><a href="#"><img src="images_folder/if_firefox_317745.svg" alt ="firefox-logo" width="100" height="100"></a></div>
+
+                        <div class="grid-item"><a href="#"><img src="images_folder/if_social_media_social_media_logo_slack_2993744.svg" alt ="logo" width="100" height="100"></a></div>
+
+                        <div class="grid-item"><a href="#"><img src ="images_folder/if_twitter_317720.svg" alt="twitter-logo" width="100" height="100"></a></div>
+
+                        <div class="grid-item"><a href="#"><svg width="100" height="100">
+                        <circle cx="50" cy="50" r="40" stroke="orange" stroke-width="4" fill="yellow" />
+                        </svg></a></div>
+
+                        <div class="grid-item"><a href="#"><img src="images_folder/if_firefox_317745.svg" alt ="firefox-logo" width="100" height="100"></a></div>
+
+                        <div class="grid-item"><a href="#"><img src="images_folder/if_social_media_social_media_logo_slack_2993744.svg" alt ="logo" width="100" height="100"></a></div>
+                    </div>
+                </div>
+                
+
+                <aside>
+                    <h2>THE GALLERY</h2>
+                    <p class="asidep">Images to the right should be added as links.Each image should be responsive.</p>
+                </aside>        
+            
+            </section>
+
+            <footer>
+                
+                <div class="footerflexbox1">
+                    <h2>FIND US</h2>
+                    <figure>
+                        <div id="map"></div>
+                        <script>
+                            function initMap() {
+                            var uluru = {lat: 55.6616803, lng: 12.540794699999992};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 4,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                            }
+                        </script>
+                        <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1eB3_ZOWQJWrqUJ6yFRs38ECHXddJwXI&callback=initMap">
+                        </script>
+                        <figcaption>
+                            <p>Hack Your Future<br>Copenhagen<br>M-Th: 7am-4pm<br>Fri-Sat:9am-8pm</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="footerflexbox flexbox2">
+                    <h2>ABOUT THIS PAGE</h2>
+                    <p>This is the footer of the page for homework 02</p>
+                </div>
+                <div class="footerflexbox flexbox3">
+                    <h2>ARCHIVES</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">March 2016</a></li>
+                            <li><a href="#">February 2016</a></li>
+                            <li><a href="#">January 2016</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footerflexbox flexbox4">
+                    <h2>NAVIGATION</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </article>
+    </body>
+</html>
+
+

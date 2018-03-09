@@ -1,0 +1,283 @@
+ *{
+     border:0;
+     margin:0;
+     box-sizing: border-box; 
+ }
+ 
+ header{
+    background-color:rgb(247, 241, 241);
+    height:10em; 
+    width:100%;
+    border-bottom:.025em outset;      
+}
+
+header h1{
+    position:absolute;
+    top:2em;
+    margin-left:8em; 
+}
+.footerflexbox1,header p,.webdev,.logot,.tab{
+    margin-left:12em;    
+}
+
+header p{
+    position:absolute;
+    top:6em;         
+}
+
+header,div,footer,section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab{
+    margin-top:2em;
+    background-color: white;
+    height:3em;
+    overflow:hidden;
+}
+
+button{
+    background-color: white;
+    font-weight: bold;
+    margin-right:2em;  
+    font-size:1em; 
+    cursor: pointer;
+    outline:none;
+}
+
+     button:hover, ul a:hover{
+    color:rgb(128, 128, 128);
+}
+
+.bkgrndimg{
+    max-width:2000px;
+    max-height:450px;
+    overflow:hidden;
+    -webkit-transform: rotate(180deg);
+    -moz-transform:    rotate(180deg);
+    -ms-transform:     rotate(180deg);
+    -o-transform:      rotate(180deg);
+    transform:         rotate(180deg); 
+}
+
+.bkgrndimg img{
+    width:1500px;
+    height:870px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform:    rotate(180deg);
+    -ms-transform:     rotate(180deg);
+    -o-transform:      rotate(180deg);
+    transform:         rotate(180deg); 
+}
+
+.webdev,.logot{
+    margin-top:4em;
+    margin-right:10em;
+    display:flex;
+    flex-direction: row-reverse;  
+}
+
+.webdev .mainpara{
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    margin-left:2em;
+    padding-left:1.5em;      
+}
+
+.mainpara h2{
+    font-weight:bolder;  
+}
+
+.mainp{
+    margin-top:1.5em;
+    line-height:1.35;
+}
+
+.mainp,header p,.asidep{
+    color:rgb(128, 128, 128);
+}
+
+aside{
+    width:32%;
+    display:flex;
+    flex-direction: column;
+    margin-right:2em;
+    padding-right:1.5em;
+}
+
+aside h2{
+    font-size:.9em;
+    font-weight:bolder;
+}
+
+.asidep{
+    margin-top:2.9em;
+    font-size:.75em;
+    line-height:1.35;
+    text-align:justify;
+}
+
+.logoonly{
+    width:60%;
+    margin-left:2em;
+    padding-left:1.5em;  
+}
+
+.grid-container {
+    margin-top:4.5em;
+    display: inline-grid;
+    grid-template-columns: 9.5em 9.5em 9.5em 9.5em;
+    grid-template-rows: 11em 11em 11em;
+}
+
+footer{
+    margin-top:3.5em;
+    width:100%;
+    height:45%;
+    display:flex;
+    background-color: blueviolet;
+    color: white;
+}
+
+footer h2{
+    font-size:1.4em;
+    margin-bottom:.5em;   
+}
+
+.footerflexbox1,.footerflexbox{
+    margin-top:1.5em;
+    padding-top:.5em;
+    width:15em;
+    margin-right:3em;
+    padding-right:2em;
+}
+
+ul{
+    list-style:none;
+    line-height: 3;      
+ }
+
+ul a:link,ul a:visited{
+    color: white;
+}
+ul a{
+    text-decoration:none;
+}
+
+li{
+    border-bottom: .05em outset ; 
+}
+
+.flexbox4{
+    margin-right:8em;           
+}
+
+.flexbox4 h2,.flexbox3 h2{
+    margin-left:1.7em;
+}
+
+figcaption{
+    line-height: 2;
+}
+    
+#map {
+    height: 12em;
+    width: 12em;
+}
+
+@media only screen and (max-width: 800px){
+     article{
+        display:flex;
+        flex-wrap: nowrap;
+        font-size:1em;
+        flex-direction: column;
+        justify-content: space-between;            
+    }
+
+    header h1,.tab,.webdev,.logot,.footerflexbox,.flexbox4 h2,.flexbox3 h2{
+        margin-left:2em;                
+    }
+
+    aside,.tab,.webdev,.logot,.logoonly,.grid-container,.footerflexbox1,.footerflexbox{
+        margin-top:2em;
+    }
+    
+    header p{
+        margin-left:3em;
+        line-height:2em;
+    }
+
+    .tab{
+        height:10em;        
+    }
+
+    button{
+        display: block;
+        padding: .5em;      
+        outline:none;
+    }
+
+    .bkgrndimg{
+        max-width:100%;
+        max-height:5%;
+    }
+
+    .bkgrndimg img{
+        width:120%;
+        height:10%;           
+    }
+
+    .webdev{
+         margin-right:1.5em;
+         flex-direction: column;     
+    }
+
+    .webdev .mainpara,aside{
+        width:100%;
+        margin-left: 0;
+        padding-left:0;          
+    }  
+
+    .asidep{
+        margin-top:1em;        
+    }
+
+    .logot{
+        margin-right:1.5em; 
+        flex-direction: column-reverse;  
+    }
+    
+    .logoonly{
+        margin-left:0;
+        padding-left:0;  
+    }
+
+    .grid-container {
+        grid-template-columns: 15em 15em ;
+        grid-template-rows: 10em 10em 10em 10em 10em 10em;
+    }
+
+    footer{
+        height:45%;
+        flex-direction:column;        
+    }
+
+    .footerflexbox1,.footerflexbox{
+        padding-top:1em;
+        width:50%;
+        height:10%;
+        margin-right:0;
+        padding-right:0;
+    }
+
+    .footerflexbox1,.flexbox2{
+        margin-left:4em;
+    }
+    
+    figcaption{
+        line-height: 1.5em;
+    }
+}
+    
+    
