@@ -186,7 +186,7 @@ figcaption{
     width: 12em;
 }
 
-@media only all and (max-width: 800px){
+@media all and (max-width: 800px){
      article{
         display:flex;
         flex-wrap: nowrap;
