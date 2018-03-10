@@ -254,8 +254,9 @@ figcaption{
     }
 
     .grid-container {
-        grid-template-columns: 15em 15em ;
-        grid-template-rows: 10em 10em 10em 10em 10em 10em;
+        width:100%;
+        grid-template-columns: 100% 100% ;
+        grid-template-rows: 20% 20% 20% 20% 20% 20%;
     }
 
     footer{
@@ -266,7 +267,7 @@ figcaption{
     .footerflexbox1,.footerflexbox{
         padding-top:1em;
         width:50%;
-        height:10%;
+        height:100%;
         margin-right:0;
         padding-right:0;
     }
